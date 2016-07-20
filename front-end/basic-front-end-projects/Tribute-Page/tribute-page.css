@@ -1,0 +1,12 @@
+body {
+  margin-top: 60px;
+}
+
+#title {
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.container {
+    background-color: rgb(240,240,240);
+}
