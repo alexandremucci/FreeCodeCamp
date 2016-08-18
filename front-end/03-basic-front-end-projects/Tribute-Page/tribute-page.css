@@ -10,3 +10,6 @@ body {
 .container {
     background-color: rgb(240,240,240);
 }
+.standardLine {
+    border-top: 1px solid #000000;
+}
