@@ -8,6 +8,13 @@ Write a function which takes a ROT13 encoded string as input and returns a decod
 
 All letters will be uppercase. Do not transform any non-alphabetic character (i.e. spaces, punctuation), but do pass them on.
 
+Remember to use Read-Search-Ask if you get stuck. Try to pair program. Write your own code.
+
+Here are some helpful links:
+
+String.prototype.charCodeAt()
+String.fromCharCode()
+
 */
 
 function rot13(str) { 
