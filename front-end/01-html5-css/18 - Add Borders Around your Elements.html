@@ -1,0 +1,68 @@
+<!-- 
+
+CSS borders have properties like style, color and width
+
+For example, if we wanted to create a red, 5 pixel border around an HTML element, we could use this class:
+
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+
+Create a class called thick-green-border that puts a 10-pixel-wide green border with a style of solid around an HTML element, and apply that class to your cat photo.
+
+Remember that you can apply multiple classes to an element by separating each class with a space within its class attribute. For example:
+
+<img class="class1 class2">
+
+-->
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="UTF-8">
+    <title>FreeCodeCamp</title>
+</head>
+
+<body>
+
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <style>
+      .red-text {
+        color: red;
+      }
+    
+      h2 {
+        font-family: Lobster, Monospace;
+      }
+    
+      p {
+        font-size: 16px;
+        font-family: Monospace;
+      }
+    
+      .smaller-image {
+        width: 100px;
+      }
+      
+      .thick-green-border {
+        border-color: green;
+        border-width: 10px;
+        border-style: solid;
+      }
+    </style>
+    
+    <h2 class="red-text">CatPhotoApp</h2>
+    
+    <img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. ">
+    
+    <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+    <p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+
+</body>
+
+</html>

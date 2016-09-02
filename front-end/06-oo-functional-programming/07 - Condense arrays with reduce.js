@@ -1,11 +1,3 @@
-var array = [4,5,6,7,8];
-var singleVal = 0;
-
-// Used in this case to sum all the values in array
-singleVal = array.reduce(function(previousVal,currentVal) {
-  return previousVal + currentVal;
-});
-
 /*
 
 The array method reduce is used to iterate through an array and condense it into one value.
@@ -19,3 +11,12 @@ reduce has an optional second argument which can be used to set the initial valu
 If no initial value is specified it will be the first array element and currentVal will start with the second array element.
 
 */
+
+var array = [4,5,6,7,8];
+var singleVal = 0;
+
+// Used in this case to sum all the values in array
+singleVal = array.reduce(function(previousVal,currentVal) {
+  return previousVal + currentVal;
+});
+
