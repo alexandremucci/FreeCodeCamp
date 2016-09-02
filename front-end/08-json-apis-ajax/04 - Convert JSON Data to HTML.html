@@ -1,3 +1,26 @@
+<!--
+
+Now that we're getting data from a JSON API, let's display it in our HTML.
+
+We can use the .forEach() method to loop through our data and modify our HTML elements.
+
+First, let's declare an html variable with var html = "";.
+
+Then, let's loop through our JSON, adding more HTML to that variable. When the loop is finished, we'll render it.
+
+Here's the code that does this:
+
+json.forEach(function(val) {
+  var keys = Object.keys(val);
+  html += "<div class = 'cat'>";
+  keys.forEach(function(key) {
+    html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
+  });
+  html += "</div><br>";
+});
+
+-->
+
 <!DOCTYPE html>
 
 <html lang="en">
