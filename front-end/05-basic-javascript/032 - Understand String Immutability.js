@@ -11,6 +11,9 @@ cannot change the value of myStr to "Job", because the contents of myStr cannot 
 var myStr = "Bob";
 myStr = "Job";
 
+Instructions
+Correct the assignment to myStr to achieve the desired effect.
+
 */
 
 // Setup

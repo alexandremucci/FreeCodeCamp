@@ -1,3 +1,18 @@
+/*
+
+The /= operator divides a variable by another number.
+
+myVar = myVar / 5;
+
+Will divide myVar by 5. This can be rewritten as:
+
+myVar /= 5;
+
+Instructions
+Convert the assignments for a, b, and c to use the /= operator.
+
+*/
+
 var a = 48;
 var b = 108;
 var c = 33;

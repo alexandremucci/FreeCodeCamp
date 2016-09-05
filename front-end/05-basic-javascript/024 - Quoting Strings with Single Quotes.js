@@ -10,6 +10,9 @@ If you have a string with many double quotes, this can be difficult to read and 
 
 'This string has "double quotes" in it. And "probably" lots of them.'
 
+Instructions
+Change the provided string from double to single quotes and remove the escaping.
+
 */
 
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>'; 

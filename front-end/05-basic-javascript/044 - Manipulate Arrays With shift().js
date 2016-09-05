@@ -4,6 +4,9 @@ pop() always removes the last element of an array. What if you want to remove th
 
 That's where .shift() comes in. It works just like .pop(), except it removes the first element instead of the last.
 
+Instructions
+Use the .shift() function to remove the first item from myArray, assigning the "shifted off" value to removedFromMyArray.
+
 */
 
 // Example

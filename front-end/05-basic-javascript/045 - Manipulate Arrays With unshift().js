@@ -4,6 +4,9 @@ Not only can you shift elements off of the beginning of an array, you can also u
 
 .unshift() works exactly like .push(), but instead of adding the element at the end of the array, unshift() adds the element at the beginning of the array.
 
+Instructions
+Add ["Paul",35] to the beginning of the myArray variable using unshift().
+
 */
 
 // Example

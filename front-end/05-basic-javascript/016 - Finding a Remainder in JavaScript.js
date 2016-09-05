@@ -18,6 +18,9 @@ In mathematics, a number can be checked even or odd by checking the remainder of
 Note
 The remainder operator is sometimes incorrectly referred to as the "modulus" operator. It is very similar to modulus, but does not work properly with negative numbers.
 
+Instructions
+Set remainder equal to the remainder of 11 divided by 3 using the remainder (%) operator.
+
 */
 
 // Only change code below this line
