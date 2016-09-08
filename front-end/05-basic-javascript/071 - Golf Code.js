@@ -5,6 +5,7 @@ In the game of golf each hole has a par meaning the average number of strokes a 
 Your function will be passed par and strokes arguments. Return the correct string according to this table which lists the strokes in order of priority; top (highest) to bottom (lowest):
 
 Strokes	Return
+
 1	"Hole-in-one!"
 <= par - 2	"Eagle"
 par - 1	"Birdie"
@@ -36,5 +37,6 @@ function golfScore(par, strokes) {
   }
   // Only change code above this line
 }
+
 // Change these values to test
 golfScore(5, 4);

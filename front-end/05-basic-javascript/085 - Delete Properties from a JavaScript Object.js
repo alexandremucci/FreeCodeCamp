@@ -1,3 +1,14 @@
+/*
+
+We can also delete properties from objects like this:
+
+delete ourDog.bark;
+
+Instructions
+Delete the "tails" property from myDog. You may use either dot or bracket notation.
+
+*/
+
 // Example
 var ourDog = {
   "name": "Camper",

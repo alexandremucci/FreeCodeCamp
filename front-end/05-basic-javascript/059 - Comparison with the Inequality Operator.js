@@ -10,6 +10,10 @@ Examples
 1 != true   // false
 0 != false  // false
 
+Instructions
+
+Add the inequality operator != in the if statement so that the function will return "Not Equal" when val is not equivalent to 99
+
 */
 
 // Setup

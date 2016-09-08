@@ -19,6 +19,9 @@ In order for JavaScript to compare two different data types (for example, number
    1   ==  2    // false
    1   == '1'   // true
   "3"  ==  3    // true
+  
+Instructions
+Add the equality operator to the indicated line so that the function will return "Equal" when val is equivalent to 12
 
 */
 

@@ -4,6 +4,9 @@ You can invert any match by using the uppercase version of the regular expressio
 
 For example, \s will match any whitespace, and \S will match anything that isn't whitespace.
 
+Instructions
+Use /\S/g to count the number of non-whitespace characters in testString.
+
 */
 
 // Setup

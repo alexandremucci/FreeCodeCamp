@@ -8,6 +8,10 @@ The whitespace regular expression looks like this:
 
 /\s+/g
 
+Instructions
+
+Use \s to select all the whitespace characters in the sentence string.
+
 */
 
 // Setup

@@ -16,6 +16,11 @@ g means global, which causes the pattern to return all matches in the string, no
 
 i means that we want to ignore the case (uppercase or lowercase) when searching for the pattern.
 
+Instructions
+Select all the occurrences of the word and in testString.
+
+You can do this by replacing the . part of the regular expression with the word and.
+
 */
 
 // Setup

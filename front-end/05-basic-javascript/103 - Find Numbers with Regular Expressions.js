@@ -10,6 +10,9 @@ Appending a plus sign (+) after the selector, e.g. /\d+/g, allows this regular e
 
 The trailing g is short for 'global', which allows this regular expression to find all matches rather than stop at the first match.
 
+Instructions
+Use the \d selector to select the number of numbers in the string, allowing for the possibility of one or more digit.
+
 */
 
 
