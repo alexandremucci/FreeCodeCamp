@@ -20,9 +20,17 @@ Array.prototype.reduce()
 function uniteUnique(arr) {
   var newArr = [];
   
-  arr.forEach(function(value) {
-     
-  });
+  for (var i = 0; i < arguments.length; i++) {
+    var arrayArguments = arguments[i]; 
+    
+    for (var j = 0; j < arrayArguments.length; j++) {
+       var value = arrayArguments[j];
+      
+       if (newArr.indexOf(value) < 0) {
+         newArr.push(value);
+       }
+    }
+  }  
   
   return newArr;
 }
